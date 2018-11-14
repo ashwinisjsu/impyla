@@ -21,7 +21,7 @@ from setuptools import setup, find_packages
 
 
 def readme():
-    with open('README.md', 'r') as ip:
+    with open('README.md', 'r',encoding="utf-8") as ip:
         return ip.read()
 
 import versioneer  # noqa
